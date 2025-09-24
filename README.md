@@ -176,9 +176,14 @@ npm start                   # Frontend dashboard
 
 ## 👥 Team
 
-- **Your Name** - Full Stack Developer & AI Security Specialist
-- Contact: your.email@example.com
-- LinkedIn: [your-profile](https://linkedin.com/in/your-profile)
+- **Your Name** - Jenish Kothari
+- Contact: kothari.je@northeastern.edu
+
+- **Your Name** - Aditi Deodhar
+- Contact: deodhar.ad@northeastern.edu
+
+- **Your Name** - Emily Rivas
+- Contact: emilycr20@gmail.com
 
 ## 📄 License
 
