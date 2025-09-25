@@ -618,7 +618,10 @@ DEMO_HTML = """
     </div>
 
     <script>
-        let ws = new WebSocket("ws://localhost:8000/ws");
+        // Auto-detect WebSocket URL for production
+        const wsProtocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+        const wsHost = window.location.host;
+        let ws = new WebSocket(`${wsProtocol}//${wsHost}/ws`);
         
         ws.onopen = function(event) {
             console.log("WebSocket connected!");
@@ -655,7 +658,7 @@ DEMO_HTML = """
             addActivity("🔌 Connection closed - reconnecting...");
             // Reconnect after 3 seconds
             setTimeout(() => {
-                ws = new WebSocket("ws://localhost:8000/ws");
+                ws = new WebSocket(`${wsProtocol}//${wsHost}/ws`);
             }, 3000);
         };
 
