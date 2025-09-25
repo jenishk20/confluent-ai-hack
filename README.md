@@ -118,7 +118,6 @@ npm start                   # Frontend dashboard
 
 - [Confluent Cloud Documentation](https://docs.confluent.io/cloud/current/overview.html)
 - [Apache Flink Documentation](https://flink.apache.org/docs/stable/)
-- [Microsoft Presidio](https://microsoft.github.io/presidio/)
 - [AWS Rekognition](https://aws.amazon.com/rekognition/)
 - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
 
