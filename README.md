@@ -107,23 +107,6 @@ python src/main.py          # Backend API
 npm start                   # Frontend dashboard
 ```
 
-## 📈 Demo Scenarios
-
-### Healthcare Privacy Protection
-
-- Upload medical report → Instant PHI detection → HIPAA compliance alert
-- Real-time anonymization suggestions for safe AI consultation
-
-### Financial Data Security
-
-- Credit card detection in chat → PCI compliance warning → Secure alternatives
-- Transaction pattern analysis for fraud prevention
-
-### Enterprise Compliance
-
-- Bulk document processing → Compliance risk assessment → Audit trail
-- Real-time monitoring dashboard for security teams
-
 ## 📊 Expected Impact
 
 - **Users Protected**: Millions of AI users with enhanced privacy
